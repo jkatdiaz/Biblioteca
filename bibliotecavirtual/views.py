@@ -9,3 +9,6 @@ def index(request):
 def login(request):
     return render(request,'paginas/login.html')
 
+def formulario(request):
+    return render(request,'paginas/formulario.html')
+

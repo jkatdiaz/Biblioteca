@@ -164,6 +164,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background: url(../img/fondo.jpg)
 
 
 }
@@ -317,7 +318,9 @@ body {
     height: 100vh;
     padding: 10px;
     font-family: Bebas Neue;
-    background: url(../img/fondo.jpg);
+    background: url(../img/background.jpg);
+    
+
     /* background: linear-gradient(135deg, #71b7e6, #9b59b6); */
 }
 

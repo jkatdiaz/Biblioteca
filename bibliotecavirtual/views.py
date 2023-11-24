@@ -27,6 +27,9 @@ def book(request):
 def bookinfo(request):
     return render(request,'paginas/bookinfo.html')
 
+def bookconfig(request):
+    return render(request,'paginas/bookconfig.html')    
+
 def catalog(request):
     return render(request,'paginas/catalog.html')    
 

@@ -15,12 +15,12 @@
 		<div class="full-box dashboard-sideBar-ct">
 			<!--SideBar Title -->
 			<div class="full-box text-uppercase text-center text-titles dashboard-sideBar-title">
-				company <i class="zmdi zmdi-close btn-menu-dashboard visible-xs"></i>
+				BIBLIOTECA VIRTUAL <i class="zmdi zmdi-close btn-menu-dashboard visible-xs"></i>
 			</div>
 			<!-- SideBar User info -->
 			<div class="full-box dashboard-sideBar-UserInfo">
 				<figure class="full-box">
-					<img src="./assets/avatars/AdminMaleAvatar.png" alt="UserIcon">
+					<img src="{% static 'img/logo.jpeg'%}" alt="UserIcon">
 					<figcaption class="text-center text-titles">Usuario</figcaption>
 				</figure>
 				<ul class="full-box list-unstyled text-center">
@@ -54,7 +54,7 @@
 					</a>
 					<ul class="list-unstyled full-box">
 						<li>
-							<a href="company.html"><i class="zmdi zmdi-balance zmdi-hc-fw"></i> PNF</a>
+							<a href="BIBLIOTECA VIRTUAL.html"><i class="zmdi zmdi-balance zmdi-hc-fw"></i> PNF</a>
 						</li>
 						<li>
 							<a href="category.html"><i class="zmdi zmdi-labels zmdi-hc-fw"></i> Categorías</a>
@@ -105,16 +105,16 @@
 		<!-- Content page -->
 		<div class="container-fluid">
 			<div class="page-header">
-			  <h1 class="text-titles"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Usuarios <small>CLIENTES</small></h1>
+			  <h1 class="text-titles"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Usuarios </h1>
 			</div>
-			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptas reiciendis tempora voluptatum eius porro ipsa quae voluptates officiis sapiente sunt dolorem, velit quos a qui nobis sed, dignissimos possimus!</p>
+			<!-- <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse voluptas reiciendis tempora voluptatum eius porro ipsa quae voluptates officiis sapiente sunt dolorem, velit quos a qui nobis sed, dignissimos possimus!</p> -->
 		</div>
 
 		<div class="container-fluid">
 			<ul class="breadcrumb breadcrumb-tabs">
 			  	<li>
 			  		<a href="client.html" class="btn btn-info">
-			  			<i class="zmdi zmdi-plus"></i> &nbsp; NUEVO CLIENTE
+			  			<i class="zmdi zmdi-plus"></i> &nbsp; NUEVO USUARIO
 			  		</a>
 			  	</li>
 			  	<li>
@@ -134,7 +134,7 @@
 		<div class="container-fluid">
 			<div class="panel panel-info">
 				<div class="panel-heading">
-					<h3 class="panel-title"><i class="zmdi zmdi-plus"></i> &nbsp; NUEVO CLIENTE</h3>
+					<h3 class="panel-title"><i class="zmdi zmdi-plus"></i> &nbsp; NUEVO USUARIO</h3>
 				</div>
 				<div class="panel-body">
 					<form>
@@ -168,7 +168,7 @@
 				    				</div>
 				    				<div class="col-xs-12 col-sm-6">
 										<div class="form-group label-floating">
-										  	<label class="control-label">Cargo/Ocupación *</label>
+										  	<label class="control-label">PNF*</label>
 										  	<input pattern="[a-zA-ZáéíóúÁÉÍÓÚñÑ ]{1,30}" class="form-control" type="text" name="ocupacion-reg" required="" maxlength="30">
 										</div>
 				    				</div>
@@ -176,6 +176,17 @@
 										<div class="form-group label-floating">
 										  	<label class="control-label">Dirección</label>
 										  	<textarea name="direccion-reg" class="form-control" rows="2" maxlength="100"></textarea>
+										</div>
+				    				</div>
+									<div class="col-xs-12 col-sm-6">
+										<div class="form-group label-floating">
+										  	<label class="control-label">ROL</label>
+										  	<select name="categoria-reg" class="form-control">
+									          	<option value="categoria1">ESTUDIANTE</option>
+									          	<option value="categoria2">PROFESOR</option>
+												<option value="categoria3">INVITADO</option>
+						
+									        </select>
 										</div>
 				    				</div>
 				    			</div>

@@ -59,6 +59,8 @@ body, html{
 	font-size: 16px;
 	font-family: 'RobotoCondensed';
 	overflow: hidden;
+	background: url(../img/fondodos.png); 
+	background-position: right;
 }
 .full-box{
 	margin: 0;
@@ -116,7 +118,7 @@ body, html{
 .dashboard-sideBar{
 	left: 0;
 	z-index: 2;
-	background-image: url('../assets/img/sideBar.png');
+	background-image: url('../assets/img/fondouno.png');
 	border-right: 1px solid rgba(255, 255, 255, .7);
 	overflow: hidden;
 }

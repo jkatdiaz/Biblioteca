@@ -9,7 +9,7 @@ urlpatterns=[
     path('adminlist.html',views.adminlist,name='adminlist.html'),
     path('adminsearch.html',views.adminsearch,name='adminsearch.html'),
     path('book.html',views.book,name='book.html'),
-    path('bookconfig.html',views.adminsearch,name='bookconfig.html'),
+    path('bookconfig.html',views.bookconfig,name='bookconfig.html'),
     path('bookinfo.html',views.bookinfo,name='bookinfo.html'),
     path('catalog.html',views.catalog,name='catalog.html'),
     path('category.html',views.category,name='category.html'),
@@ -25,6 +25,5 @@ urlpatterns=[
     path('provider.html',views.provider,name='provider.html'),
     path('providerlist.html',views.providerlist,name='providerlist.html'),
     path('search.html',views.search,name='search.html'),
-
 
 ]
